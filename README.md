@@ -54,7 +54,7 @@
       - Specify the license under which the project is distributed (e.g., MIT, Apache 2.0).
 
 ### 12. **Contact Information**
-      - for any query regarding the project email us at: tanishkajdas@gmail.com / Pallavi
+      - for any query regarding the project email us at: tanishkajdas@gmail.com / rajendrasdhandar@gmail.com
 
 ### 13. **Future Work**
       - Mention any planned features or improvements for the system.
