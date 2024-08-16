@@ -1,4 +1,5 @@
-
+// Made with Immersed love 💖 for coding by 🪄 Tan-the-developer ✌🏻 &  Pallu-the-programer 🫰🏻
+// Drug supply chain management using blockchain
 console.log("The script is working");
 
 const navBar = document.querySelector("nav");
