@@ -113,15 +113,6 @@ input {
     height: 2.6vw; 
 }
 
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 600px) {
     body {
         background-size: cover;
