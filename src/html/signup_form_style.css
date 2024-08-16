@@ -1,0 +1,173 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://cryptoearth.de/wp-content/uploads/2018/06/blockchain.jpeg);
+    background-size: cover;
+    background-position: center; /* Fixed typo: should be 'center' instead of 'centre' */
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color:black; 
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+input {
+    width: 100%; 
+    height: 3vw; 
+    font-size: 1.2vw;
+    padding: 0.5vw; 
+    margin-bottom: 1.5vw; 
+}
+.maindiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: fit-content;
+    height: fit-content;
+    border-top: 0.1vw solid rgba(0, 0, 0, 0.87);
+    border-right: 0.1vw solid black;
+    border-bottom: 0.1vw solid black;
+    border-left: 0.4vw solid rgb(23, 23, 22);
+    padding: 2vw;
+    background-color:rgba(0, 0, 0, 0.7);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1vw;
+}
+
+.top a:active {
+    transform: translate(-3px, 2px);
+}
+
+.top a {
+    padding: 2px 6px;
+    
+    font-size: medium;
+    text-decoration: none;
+
+    color: white; 
+    text-decoration: none; 
+}
+
+.top a:hover {
+    color: darkblue; 
+}
+
+.formdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4vw 0;
+
+    width: 25vw;
+    height: fit-content;
+}
+
+.formdiv h2{
+    width: 100%;
+    height: 2.5vm;
+    color: white;
+}
+.formdiv h3{
+    color:white;
+}
+.formdiv h4{
+    color:white;
+}
+form {
+    text-align: center; 
+}
+
+#text:hover,
+#email:hover,
+#paswd:hover {
+    border: 2px solid black;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    body {
+        height: 100vh; 
+        padding: 0; 
+        margin: 0; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        overflow-x: hidden; 
+    }
+
+    .maindiv {
+        width: 90%;
+        padding: 4vh; 
+        box-shadow: none;
+        border: 1px solid rgb(23, 23, 22);
+        height: auto; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formdiv {
+        width: 100%; 
+        padding: 4vh 2vw; 
+        box-sizing: border-box; 
+    }
+
+    .formdiv h2 {
+        font-size: 6vw;
+        margin-bottom: 3vh; 
+    }
+
+    input {
+        width: 100%; 
+        height: 8vh; 
+        font-size: 4vw; 
+        padding: 2vh; 
+        margin-bottom: 3vh; 
+    }
+
+    #btn1, #btn2 {
+        width: 100%; 
+        height: 10vh; 
+        font-size: 4vw; 
+        margin: 2vh 0; 
+    }
+
+    .top {
+        display: flex;
+        justify-content: center;
+        width: 100%; 
+        margin-bottom: 3vh;
+    }
+
+    .top a {
+        font-size: 4vw; 
+        padding: 1vh 2vw; 
+    }
+
+    a {
+        font-size: 4vw; 
+        color: lightblue; 
+    }
+}
+
+
