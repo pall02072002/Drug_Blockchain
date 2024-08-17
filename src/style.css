@@ -14,7 +14,14 @@ body {
     box-sizing: border-box;
 }
 
-/* ---- particles.js container ---- */
+
+main {
+    margin-top: 80px;
+    padding: 2rem;
+}
+
+
+/* ------------------------------------------------------------ particles.js container ------------------------------------------------------*/
   
 #particles-js {
     position: absolute;
@@ -27,6 +34,7 @@ body {
     background-position: 50% 50%;
   }
 
+/*------------------------------------------------------------  Navbar Style ---------------------------------------------------------------*/  
 nav {
     background: #062f3e;
     height: 80px;
@@ -37,78 +45,6 @@ nav {
     top: 0;
     width: 100%;
     padding: 0 2rem;
-}
-
-  
-  
-  
-.hero
-{
-    text-align: center;
-    color: #1b6367;
-    background:#d67d3e;
-}
-
-main {
-    margin-top: 80px;
-    padding: 2rem;
-}
-
-.hero-image {
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background:#d67d3e;
-}
-
-
-
-.hero-image1 {
-    margin-top: 80px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("./assets/food-hero1.jpg");
-}
-
-.hero-image2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("./assets/food-hero2.jpg");
-}
-
-.hero-image3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("./assets/food-hero3.jpg");
-}
-
-.hero-image4 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("./assets/food-hero4.jpg");
-}
-
-.hero-text {
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
-
-.hero-text button {
-    border: none;
-    margin-top: 2rem;
-    display: inline-block;
-    padding: 10px 25px;
-    color: black;
-    background-color: #ddd;
-    text-align: center;
-    cursor: pointer;
-}
-
-.hero-text button:hover {
-    background-color: #555;
-    color: white;
 }
 
 .n1 {
@@ -147,6 +83,7 @@ a:hover {
     color: #f9e4d4;
 }
 
+
 .checkbtn {
     font-size: 30px;
     color: #f9e4d4;
@@ -159,6 +96,8 @@ a:hover {
 #check {
     display: none;
 }
+ 
+/*------------------------------------------------------------  Fontawasome Style ---------------------------------------------------------------*/  
 
 @media (max-width: 1024px) {
     .checkbtn {
@@ -170,42 +109,7 @@ a:hover {
     .checkbtn {
         display: block;
     }
-
-    .culinary {
-        flex-flow: column;
-    }
-
-    .culinary-text {
-        padding: 5rem;
-    }
-
-    .culinary iframe {
-        max-width: 100%;
-        margin: auto;
-    }
-
-    .Contact {
-        flex-flow: column;
-    }
-
-    .Contactext h1 {
-        font-size: 16px;
-    }
-
-    .Contactext h3 {
-        font-size: 9px;
-    }
-
-    .Contactext h4 {
-        font-size: 11px;
-    }
-
-    .Contact img {
-        margin-top: 2rem;
-        height: 200px;
-        width: 200px;
-    }
-
+   
     nav {
         padding: 0 1.5rem;
     }
@@ -244,7 +148,10 @@ a:hover {
     }
 }
 
-/* the styling of page ,about,career,book and contact starts here */
+
+
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ the styling of page ,about,career,book and contact starts here $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 .about {
     align-content: center;
     text-align: center;
@@ -293,3 +200,105 @@ a:hover {
     color: #f9e4d4;
     flex-wrap: wrap;
 }
+
+
+/*
+
+    .hero
+  {
+    text-align: center;
+    color: #1b6367;
+    background:#d67d3e; 
+  }
+
+    .culinary {
+        flex-flow: column;
+    }
+
+    .culinary-text {
+        padding: 5rem;
+    }
+
+    .culinary iframe {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .Contact {
+        flex-flow: column;
+    }
+
+    .Contactext h1 {
+        font-size: 16px;
+    }
+
+    .Contactext h3 {
+        font-size: 9px;
+    }
+
+    .Contactext h4 {
+        font-size: 11px;
+    }
+
+    .Contact img {
+        margin-top: 2rem;
+        height: 200px;
+        width: 200px;
+    }
+
+   .hero-image {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background:#d67d3e;
+}
+
+.hero-image1 {
+    margin-top: 80px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("./assets/food-hero1.jpg");
+}
+
+.hero-image2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("./assets/food-hero2.jpg");
+}
+
+.hero-image3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("./assets/food-hero3.jpg");
+}
+
+.hero-image4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("./assets/food-hero4.jpg");
+}
+
+.hero-text {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text button {
+    border: none;
+    margin-top: 2rem;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hero-text button:hover {
+    background-color: #555;
+    color: white;
+}
+
+    */
