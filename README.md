@@ -6,7 +6,10 @@
      - Pallavi Dhandar
 
 ### 3. **Description**
-     - 
+     -  This website is a comprehensive platform developed to ensure the drug supply chain's transparency, security, and efficiency. Built with HTML, CSS, and JavaScript for the front end, the platform provides 
+        an intuitive and user-friendly interface. The backend is powered by Node.js and MongoDB, ensuring robust data handling and real-time processing. The blockchain component, developed using Solidity and 
+        deployed on the Sepolia testnet, guarantees immutable and secure transactions, tracking drugs from manufacturer to consumer. Docker is used for containerization, ensuring the application is scalable, 
+        portable, and easy to deploy across different environments.
      
 ### 4. **Features**
      - Secure tracking of drugs from manufacturing to delivery
@@ -16,16 +19,16 @@
      - Access controls for different stakeholders
 
 ### 5. **Technology Stack**
-     - Blockchain platform (e.g., Ethereum, Hyperledger)
-     - Smart contract languages (e.g., Solidity)
-     - Frontend technologies (e.g., Js, HTML, CSS)
-     - Backend technologies (e.g., Node.js, Python)
-     - Databases (e.g., MongoDB, SQL)
+     - Blockchain platform: Ethereum, Sepolia (Test Net)
+     - Smart contract languages: Solidity, python 
+     - Frontend technologies: Js, HTML, CSS
+     - Backend technologies: Node.js 
+     - Database:  MongoDB
      - Metamask for test Notworks (Sepolia)
      - Docker for containerization 
 
 ### 6. **Installation Instructions**
-     - Prerequisites (software, hardware)
+     - Prerequisites: (Steps to mention here)
      - Installation of dependencies
      - Configuration settings
      - Running the application locally
@@ -38,6 +41,8 @@
 
 ### 8. **Smart Contracts**
      - Describe the smart contracts used in the project:
+           
+     
      - Purpose of each contract
      - How they are deployed
      - Functions and interactions
