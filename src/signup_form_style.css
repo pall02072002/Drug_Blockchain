@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(https://cryptoearth.de/wp-content/uploads/2018/06/blockchain.jpeg);
+    
     background-size: cover;
     background-position: center; /* Fixed typo: should be 'center' instead of 'centre' */
     background-repeat: no-repeat;
@@ -18,23 +18,120 @@ body {
     background-color:black; 
 }
 
+
+
+
+
+
+
+
+
+
+#btn2 {
+    background-color: rgb(32, 50, 189); /* Blue background */
+    border: 2px solid #f4f8e6; /* Add a border */
+    color: white; /* White text */
+    padding: 6px 12px; /* Add padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it inline-block */
+    font-size: 12px; /* Set font size */
+    margin: 4px 6px; /* Add some margin */
+    margin-top: 2px;
+    margin-bottom: 20px;
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 2px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  #btn2:hover {
+    background-color: #005F8A; /* Darker blue on hover */
+  }
+  
+
+  h2 {
+    color: #1e5cc7; /* Dark gray text color */
+    font-family: 'Arial', sans-serif; /* Set font family */
+    font-size: 30px; /* Set font size */
+    font-weight: bold; /* Make the text bold */
+    margin-top: 16px; /* Add top margin */
+    margin-bottom: 20px; /* Add bottom margin */
+    text-align: center; /* Center align the heading */
+    text-transform: capitalize; /* Capitalize each word */
+    letter-spacing: 1px; /* Add some space between letters */
+  }
+ 
+
+
+
+
+  #btn1:active, #btn2:active {
+    background-color: rgb(230, 234, 235);
+    box-shadow: 0px 4px #ffffff;
+    transform: translateY(4px);
+}
+
+#btn1 {
+    margin-left: 7.5vw;
+    background-color: rgb(35, 54, 162);
+    color: white;
+    font-size: 1.2vw; 
+    font-weight: bold;
+    border-radius: 0.4vw;
+    width: 9vw;
+    height: 2.6vw;
+}
+  
+  #btn1:hover {
+    background-color: #74bddf; /* Darker blue on hover */
+  }
+
 html, body {
     height: 100%;
     overflow-x: hidden;
 }
-input {
-    width: 100%; 
-    height: 3vw; 
-    font-size: 1.2vw;
-    padding: 0.5vw; 
-    margin-bottom: 1.5vw; 
+
+
+
+  
+  /* Label Styling */
+  /* Form Container */
+
+  
+  /* Container for label and input */
+  .formU {
+    margin-top: 0vw;
 }
+
+label {
+    font-weight: bold;
+    color: white; 
+    font-size: 1.4vw; 
+    margin-left: 15px;
+}
+
+input:hover {
+    border: 5px solid rgb(232, 236, 237);
+}
+
+input {
+    margin-bottom: 1.5vw;
+    margin-top: 0.5vw;
+    width: 23vw;
+    height: 2.8vw;
+    font-size: 1.1vw; 
+    padding: 0.5vw;
+}
+
+  
+  
+  
 .maindiv {
     display: flex;
     flex-direction: column;
     align-items: center; 
-    width: fit-content;
-    height: fit-content;
+    width: 30%;
+    height: 82%;
     border-top: 0.1vw solid rgba(0, 0, 0, 0.87);
     border-right: 0.1vw solid black;
     border-bottom: 0.1vw solid black;
@@ -68,6 +165,13 @@ input {
     color: darkblue; 
 }
 
+
+
+
+
+
+
+
 .formdiv {
     display: flex;
     flex-direction: column;
@@ -90,7 +194,10 @@ input {
     color:white;
 }
 form {
-    text-align: center; 
+    text-align: left; 
+}
+form.btn1{
+    text-align: center;
 }
 
 #text:hover,
@@ -98,6 +205,24 @@ form {
 #paswd:hover {
     border: 2px solid black;
 }
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image:url("https://th.bing.com/th/id/OIP.KAS5XhB8dctXwciJrR_rpwHaEK?rs=1&pid=ImgDetMain"); /* Optional: Background color if particles do not cover fully */
+    z-index: -1; /* Ensure it is behind other content */
+  }
+  
+  .maindiv {
+    position: relative;
+    z-index: 1; /* Ensure content is above particles */
+  }
+
+
+
+
 
 
 
