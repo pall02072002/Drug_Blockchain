@@ -9,7 +9,31 @@
 
 </head>
 
+<!-- 
+<script>
+const connectDB = require("./db/connect");
 
+const start = async () =>
+{
+	try
+	{
+		await connectDB();
+		app.listen(PORT, ()  => {
+			console.log(`Server is running on port ${PORT}`);
+		});
+	}
+
+	catch(error)
+	{
+          console.log(error);
+	}
+}
+
+</script>
+connecting monogodb -->
+
+
+<!-- for praticles-->
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
 <body>
@@ -25,9 +49,6 @@
 		</div>
 		
 		<br>
-		
-			
-			
 			<form>
 				<div class="formU">
 					<label >Name</label><br>
@@ -37,26 +58,7 @@
 					<label >Password</label><br>
 					<input id="paswd" type="password"required>
 					
-				</div><br>
-				
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-				
+				</div><br>			
                 <button id="btn1">Register</button><br>
 				
 			</form>
