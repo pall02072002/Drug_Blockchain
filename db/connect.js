@@ -1,6 +1,7 @@
 const mongoose = requires("mongoose");
 
-uri = "mongodb+srv://tanishka786:<aCrZVREx2FZXlif5>@drugblock.q7h2t.mongodb.net/";
+uri =
+    "mongodb+srv://tanishka786:<aCrZVREx2FZXlif5>@drugblock.q7h2t.mongodb.net/";
 const connectDB = () => {
     return mongoose.connect(uri, {
         useNewUrlParser: true,
@@ -9,4 +10,3 @@ const connectDB = () => {
 };
 
 module.exports = connectDB;
-

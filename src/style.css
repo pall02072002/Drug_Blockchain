@@ -14,15 +14,13 @@ body {
     box-sizing: border-box;
 }
 
-
 main {
     margin-top: 80px;
     padding: 2rem;
 }
 
-
 /* ------------------------------------------------------------ particles.js container ------------------------------------------------------*/
-  
+
 #particles-js {
     position: absolute;
     width: 100%;
@@ -32,9 +30,9 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-  }
+}
 
-/*------------------------------------------------------------  Navbar Style ---------------------------------------------------------------*/  
+/*------------------------------------------------------------  Navbar Style ---------------------------------------------------------------*/
 nav {
     background: #062f3e;
     height: 80px;
@@ -51,7 +49,6 @@ nav {
     font-size: 2rem;
     line-height: 80px;
     font-weight: bold;
-    
 }
 
 nav ul {
@@ -83,7 +80,6 @@ a:hover {
     color: #f9e4d4;
 }
 
-
 .checkbtn {
     font-size: 30px;
     color: #f9e4d4;
@@ -96,8 +92,8 @@ a:hover {
 #check {
     display: none;
 }
- 
-/*------------------------------------------------------------  Fontawasome Style ---------------------------------------------------------------*/  
+
+/*------------------------------------------------------------  Fontawasome Style ---------------------------------------------------------------*/
 
 @media (max-width: 1024px) {
     .checkbtn {
@@ -109,7 +105,7 @@ a:hover {
     .checkbtn {
         display: block;
     }
-   
+
     nav {
         padding: 0 1.5rem;
     }
@@ -147,9 +143,6 @@ a:hover {
         left: 0;
     }
 }
-
-
-
 
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ the styling of page ,about,career,book and contact starts here $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 .about {
@@ -201,14 +194,13 @@ a:hover {
     flex-wrap: wrap;
 }
 
-
 /*
 
     .hero
   {
     text-align: center;
     color: #1b6367;
-    background:#d67d3e; 
+    background:#d67d3e;
   }
 
     .culinary {
