@@ -28,7 +28,7 @@
                 <form id="register-form">
                     <div class="formU">
                         <label>Name</label><br />
-                        <input id="text" type="text" required /><br />
+                        <input id="name" type="text" required /><br />
                         <label>Email</label><br />
                         <input
                             id="email"
@@ -166,6 +166,7 @@
 
                 // Create an object to store form data
                 const formData = {
+                    name: document.getElementById("name").value,
                     email: document.getElementById("email").value,
                     password: document.getElementById("password").value,
                 };

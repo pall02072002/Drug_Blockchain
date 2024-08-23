@@ -22,6 +22,7 @@ indexRouter.get("/getRegisteredUser", async (req, res, next) => {
 indexRouter.post("/registerNewUser", async (req, res, next) => {
     const hashedPassword = await bcrypt.hash(req.body.password, 10);
     const newUser = new User({
+        name: req.body.name,
         email: req.body.email,
         password: hashedPassword,
     });
