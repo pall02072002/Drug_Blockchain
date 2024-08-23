@@ -30,8 +30,7 @@ indexRouter.post("/registerNewUser", async (req, res, next) => {
         .then(data => {
             delete data["password"];
             res.status(200).json({
-                message: "OK",
-                data,
+                message: "New user registered",
             });
             console.log("New user registered" + data);
         })
