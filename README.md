@@ -6,6 +6,8 @@
 
      - Tanishka Das
      - Pallavi Dhandar
+     - Jatush Hingu
+     - Akash Nadar
 
 ### 3. **Description**
 
