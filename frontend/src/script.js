@@ -136,3 +136,38 @@ particlesJS("particles-js", {
     },
     retina_detect: true,
 });
+
+
+//metamask js
+async function WallectConnect() {
+    console.log("here");
+    if (typeof window.ethereum !== "undefined"){
+        const walletAddr = await ethereum.request({ method: "eth_requestAccounts"});
+        console.log(walletAddr);
+        console.log("Metamask is installed");
+
+        document.getElementById("walletAddrText").innerHTML = walletAddr;
+    }
+    else{
+        console.log("Metamask is not installed");
+    }
+    
+}
+
+async function checkWalletBalance() {
+    console.log("here in Check Balance ", document.getElementById("walletAddrText").innerHTML);
+    walletAddr = document.getElementById("walletAddrText").innerHTML;
+
+    let walletBalance = await window.ethereum.request({
+        method: "eth_getBalance",
+        params: [
+            walletAddr,
+            'latest'
+        ]
+    }).catch((err) => {
+        console.log(error);
+    })
+    console.log("Balance in hex", walletBalance);
+    console.log("Balance in ETH ", parseFloat((walletBalance) / Math.pow(10, 18)));
+    document.getElementById("walletBalanceText").innerHTML = parseFloat((walletBalance) / Math.pow(10, 18));
+}

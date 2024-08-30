@@ -179,6 +179,15 @@ particles.js config -->
                 <li><a href="./contact.html">Contact Us</a></li>
             </ul>
         </nav>
+
+      
+        <button id="connectMetamaskWallet" onclick="WallectConnect()" class="meta-box">Connect Metamask Wallet</button>
+        <br>
+        <p id="walletAddrText">Not Connected</p>
+        <br>
+        <button id="getAccountBalance" onclick="checkWalletBalance()">Get Balance of Wallet</button>
+        <br>
+        <p id="walletBalanceText"></p>
         <!-- particles.js container -->
         <div id="particles-js"></div>
         <!-- particles.js lib (JavaScript CodePen settings): https://github.com/VincentGarreau/particles.js -->
