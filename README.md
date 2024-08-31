@@ -82,3 +82,12 @@
 ### 14. **Screenshots/Demo/video**
 
       - If available, include screenshots or a link to a demo to showcase the functionality.
+
+
+### 14. **OG WORKING MEETHOD :::::::::**
+
+      - BEFORE WE CAN MIGRATE OUR CONTRACT TO BLOCKCHAIN WE NEED TO HAVE A BLOCKCHAIN RUNNING
+      - So for that we will use "GANACHE" 
+      - Migrate your contract to blockchain using truffle migrate
+      - Then we will use "WEB3" to interact with blockchain @@@@@@@@@@@@@@ SU SHIBAINU "
+      

@@ -79,3 +79,6 @@ contract DrugSupplyChain {
     }
 }
 
+// update the truffle version or pragma version if needed 
+// use command : npm install -g truffle@latest
+// also update the truffle version in " truffle-config.js"  file if needed 
