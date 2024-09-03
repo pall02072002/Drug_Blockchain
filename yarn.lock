@@ -1832,6 +1832,16 @@
     ethereumjs-abi "^0.6.8"
     ethereumjs-util "^5.1.1"
 
+"@trufflesuite/uws-js-unofficial@^20.30.0-unofficial.0":
+  version "20.30.0-unofficial.0"
+  resolved "https://registry.npmjs.org/@trufflesuite/uws-js-unofficial/-/uws-js-unofficial-20.30.0-unofficial.0.tgz"
+  integrity sha512-r5X0aOQcuT6pLwTRLD+mPnAM/nlKtvIK4Z+My++A8tTOR0qTjNRx8UB8jzRj3D+p9PMAp5LnpCUUGmz7/TppwA==
+  dependencies:
+    ws "8.13.0"
+  optionalDependencies:
+    bufferutil "4.0.7"
+    utf-8-validate "6.0.3"
+
 "@trufflesuite/web3-provider-engine@15.0.14":
   version "15.0.14"
   resolved "https://registry.npmjs.org/@trufflesuite/web3-provider-engine/-/web3-provider-engine-15.0.14.tgz"
@@ -4135,7 +4145,7 @@ buffer@~5.2.1:
     base64-js "^1.0.2"
     ieee754 "^1.1.4"
 
-bufferutil@^4.0.1:
+bufferutil@^4.0.1, bufferutil@4.0.7:
   version "4.0.7"
   dependencies:
     node-gyp-build "^4.3.0"
@@ -9085,6 +9095,8 @@ graphql-type-json@^0.2.4:
 
 graphql-type-json@^0.3.2:
   version "0.3.2"
+  resolved "https://registry.npmjs.org/graphql-type-json/-/graphql-type-json-0.3.2.tgz"
+  integrity sha512-J+vjof74oMlCWXSvt0DOf2APEdZOCdubEvGDUAlqH//VBYcOYsGgRW7Xzorr44LvkjiuvecWc8fChxuZZbChtg==
 
 graphql-type-json@0.3.2:
   version "0.3.2"
@@ -9806,6 +9818,8 @@ is-absolute-url@^3.0.0:
 
 is-absolute-url@^3.0.3:
   version "3.0.3"
+  resolved "https://registry.npmjs.org/is-absolute-url/-/is-absolute-url-3.0.3.tgz"
+  integrity sha512-opmNIX7uFnS96NtPmhWQgQx6/NYFgsUXYMllcfzwWKUMwfo8kku1TvE6hkNcH+Q1ts5cMVrsY7j0bxXQDciu9Q==
 
 is-accessor-descriptor@^1.0.1:
   version "1.0.1"
@@ -12783,6 +12797,8 @@ p-limit@^2.0.0, p-limit@^2.2.0, p-limit@^2.3.0:
 
 p-limit@^3.0.2:
   version "3.1.0"
+  resolved "https://registry.npmjs.org/p-limit/-/p-limit-3.1.0.tgz"
+  integrity sha512-TYOanM3wGwNGsZN2cVTYPArw454xnXj5qmWF1bEoAc4+cU/ol7GVh7odevjp1FNHduHc3KZMcFduxU5Xc6uJRQ==
   dependencies:
     yocto-queue "^0.1.0"
 
@@ -15853,6 +15869,8 @@ strip-json-comments@^3.0.1:
 
 strip-json-comments@^3.1.0, strip-json-comments@^3.1.1:
   version "3.1.1"
+  resolved "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-3.1.1.tgz"
+  integrity sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
 
 strip-json-comments@~2.0.1:
   version "2.0.1"
@@ -16360,7 +16378,11 @@ trough@^1.0.0:
   version "0.1.0"
   resolved "file:../../../packages/truffle"
   dependencies:
-    "@truffle/hdwallet-provider" "^2.1.1"
+    "@truffle/hdwallet-provider" "^1.7.0"
+    gatsby "2.13.57"
+    gatsby-plugin-manifest "5.13.1"
+    gatsby-plugin-styled-components "3.10.0"
+    gatsby-plugin-svgr "2.1.0"
 
 ts-node@^9:
   version "9.1.1"
@@ -16925,6 +16947,13 @@ utf-8-validate@^5.0.2, utf-8-validate@>=5.0.2:
 
 utf-8-validate@5.0.7:
   version "5.0.7"
+  dependencies:
+    node-gyp-build "^4.3.0"
+
+utf-8-validate@6.0.3:
+  version "6.0.3"
+  resolved "https://registry.npmjs.org/utf-8-validate/-/utf-8-validate-6.0.3.tgz"
+  integrity sha512-uIuGf9TWQ/y+0Lp+KGZCMuJWc3N9BHA+l/UmHd/oUHwJJDeysyTRxNQVkbzsIWfGFbRe3OcgML/i0mvVRPOyDA==
   dependencies:
     node-gyp-build "^4.3.0"
 
@@ -17538,10 +17567,10 @@ write@1.0.3:
   dependencies:
     mkdirp "^0.5.1"
 
-ws@*:
-  version "8.2.3"
-  resolved "https://registry.npmjs.org/ws/-/ws-8.2.3.tgz"
-  integrity sha512-wBuoj1BDpC6ZQ1B7DWQBYVLphPWkm8i9Y0/3YdHjHKHiohOJ1ws+3OccDWtH+PoC9DZD5WOTrJvNbWvjS6JWaA==
+ws@*, ws@8.13.0:
+  version "8.13.0"
+  resolved "https://registry.npmjs.org/ws/-/ws-8.13.0.tgz"
+  integrity sha512-x9vcZYTrFPC7aSIbj7sRCYo7L/Xb8Iy+pW0ng0wt2vCJv7M9HOMy0UoN3rr+IFC7hb7vXoqS+P9ktyLLLhO+LA==
 
 ws@^5.1.1:
   version "5.2.4"
