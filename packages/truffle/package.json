@@ -10,11 +10,7 @@
     "test": "truffle test"
   },
   "dependencies": {
-    "@truffle/hdwallet-provider": "^1.7.0",
-    "gatsby": "2.13.57",
-    "gatsby-plugin-manifest": "5.13.1",
-    "gatsby-plugin-styled-components": "3.10.0",
-    "gatsby-plugin-svgr": "2.1.0"
+    "@truffle/hdwallet-provider": "^2.1.1"
   },
   "devDependencies": {
     "dotenv": "^16.0.3",
