@@ -46,9 +46,5 @@
   "packageManager": "yarn@3.2.1",
   "engines": {
     "node": ">=16.0.0"
-  },
-  "dependencies": {
-    "@trufflesuite/uws-js-unofficial": "^20.30.0-unofficial.0",
-    "ethers": "^6.13.2"
   }
 }
