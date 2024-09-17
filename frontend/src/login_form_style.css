@@ -1,7 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 body {
     /* background-image: url(https://cryptoearth.de/wp-content/uploads/2018/06/blockchain.jpeg); */
@@ -58,108 +55,6 @@ h1 {
 
     background-position: center;
     background-repeat: no-repeat;
-}
-
-.formdiv h2 {
-    margin-bottom: 1vw;
-    transform: translateX(25%);
-    color: white;
-    font-size: 2.5vw;
-}
-.formdiv h4 {
-    color: white;
-}
-
-.formU {
-    margin-top: 2vw;
-}
-
-label {
-    font-weight: bold;
-    color: white;
-    font-size: 1.2vw;
-}
-
-input:hover {
-    border: 5px solid rgb(232, 236, 237);
-}
-
-input {
-    margin-bottom: 1.5vw;
-    margin-top: 0.5vw;
-    width: 20vw;
-    height: 1.8vw;
-    font-size: 1.2vw;
-    padding: 0.5vw;
-}
-
-#btn1:hover,
-#btn2:hover {
-    box-shadow: 2px 2px rgb(75, 123, 234);
-}
-
-#btn1:active,
-#btn2:active {
-    background-color: rgb(230, 234, 235);
-    box-shadow: 0px 4px #ffffff;
-    transform: translateY(4px);
-}
-
-#btn1 {
-    margin-left: 5vw;
-    background-color: rgb(25, 43, 205);
-    color: white;
-    font-size: 1.7vw;
-    font-weight: bold;
-    border-radius: 0.4vw;
-    width: 7.4vw;
-    height: 2vw;
-}
-
-#btn2 {
-    margin-left: 3vw;
-    background-color: rgb(61, 61, 61);
-    color: white;
-    font-size: 1.2vw;
-    font-weight: bold;
-    border-radius: 0.4vw;
-
-    width: 9vw;
-    height: 2.6vw;
-}
-#google-signin {
-    display: flex; /* Align items horizontally */
-    align-items: center; /* Center items vertically */
-    justify-content: center; /* Center button horizontally */
-    padding: 10px 70px; /* Button padding */
-    font-size: 17px; /* Font size */
-    border: none; /* Remove default border */
-    border-radius: 5px; /* Rounded corners */
-    background-color: hsl(218, 42%, 93%); /* Google blue background color */
-    color: rgb(12, 12, 12); /* Text color */
-    cursor: pointer; /* Pointer cursor on hover */
-    gap: 10px; /* Space between logo and text */
-}
-
-#google-signin img {
-    width: 50px; /* Size of the Google logo */
-    height: 50px;
-}
-
-.button-link {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    color: white;
-    background-color: #4285f4; /* Google blue background color */
-    text-decoration: none; /* Remove underline */
-    border-radius: 5px; /* Rounded corners */
-    text-align: center;
-    cursor: pointer;
-}
-
-.button-link:hover {
-    background-color: #357ae8; /* Darker blue on hover */
 }
 
 #particles-js {
