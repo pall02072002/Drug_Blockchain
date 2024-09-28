@@ -30,8 +30,10 @@
      - Smart contract languages: Solidity, python
      - Frontend technologies: Js, HTML, CSS
      - Backend technologies: Node.js
-     - Database:  MongoDB
-     - Metamask for test Notworks (Sepolia)
+     - Truffle: A popular Ethereum-based development framework, is used in supply chain management systems to enhance transparency, security, and efficiency.
+     - Ganache UI: Used with Truffle as a personal blockchain for Ethereum development that allows developers to deploy contracts, develop applications, and run tests. It simulates a local blockchain, enabling 
+       users to interact with Ethereum smart contracts in a controlled environment. This makes it easier to debug and test blockchain applications without the need to connect to the public Ethereum network.
+     - Metamask for test Notworks (Geth test by adding network manually to meta mask form ganache UI )
      - Docker for containerization
 
 ### 6. **Installation Instructions**
@@ -51,8 +53,7 @@
 ### 8. **Smart Contracts**
 
      - Describe the smart contracts used in the project:
-
-
+     
      - Purpose of each contract
      - How they are deployed
      - Functions and interactions
@@ -73,7 +74,7 @@
 
 ### 12. **Contact Information**
 
-      - for any query regarding the project email us at: tanishkajdas@gmail.com / rajendrasdhandar@gmail.com
+      - for any query regarding the project email us at: tanishkajdas@gmail.com / rajendrasdhandar@gmail.com / jatushhingu29@gmail.com / akashnadar102@gmail.com
 
 ### 13. **Future Work**
 
@@ -82,7 +83,10 @@
 ### 14. **Screenshots/Demo/video**
 
       - If available, include screenshots or a link to a demo to showcase the functionality.
-
+      -  To use our project refer to this link : 
+      -  To connect your Metamask account with Ganache refer to this link: https://youtu.be/lv4HEyiw4EQ
+      - Download Truffle: https://youtu.be/f7DQ0l2556I
+      - explore truffle and ganache: https://youtu.be/UnNPv6zEbwc
 
 ### 14. **OG WORKING MEETHOD :::::::::**
 
