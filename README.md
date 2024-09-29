@@ -1,93 +1,116 @@
 ### 1. **Project Title**
 
-     - Drug chain supply management system using blockchain
+   - Drug Chain Supply Management System using Blockchain
 
 ### 2. **Created by**
 
-     - Tanishka Das
-     - Pallavi Dhandar
-     - Jatush Hingu
-     - Akash Nadar
+   - Tanishka Das
+   - Pallavi Dhandar
+   - Jatush Hingu
+   - Akash Nadar
 
 ### 3. **Description**
 
-     -  This website is a comprehensive platform developed to ensure the drug supply chain's transparency, security, and efficiency. Built with HTML, CSS, and JavaScript for the front end, the platform provides
-        an intuitive and user-friendly interface. The backend is powered by Node.js and MongoDB, ensuring robust data handling and real-time processing. The blockchain component, developed using Solidity and
-        deployed on the Sepolia testnet, guarantees immutable and secure transactions, tracking drugs from manufacturer to consumer. Docker is used for containerization, ensuring the application is scalable,
-        portable, and easy to deploy across different environments.
+   This website is a comprehensive platform developed to ensure the transparency, security, and efficiency of the drug supply chain. Built with HTML, CSS, and JavaScript for the front end, it provides an intuitive and user-friendly interface. The backend, powered by Node.js and MongoDB, ensures robust data handling and real-time processing. The blockchain component, developed using Solidity and deployed on the Sepolia testnet, guarantees immutable and secure transactions, tracking drugs from the manufacturer to the consumer. Docker is used for containerization, ensuring scalability, portability, and easy deployment across different environments. Additionally, Truffle and Ganache UI have been utilized for blockchain development and testing. We also integrated an AI chatbot to enhance user interaction and support within the platform.
 
 ### 4. **Features**
 
-     - Secure tracking of drugs from manufacturing to delivery
-     - Tamper-proof records
-     - Real-time monitoring and verification
-     - Compliance with regulations
-     - Access controls for different stakeholders
+   - Secure tracking of drugs from manufacturing to delivery
+   - Tamper-proof records
+   - Real-time monitoring and verification
+   - Compliance with regulations
+   - Access controls for different stakeholders
+   - AI chatbot for user support
 
 ### 5. **Technology Stack**
 
-     - Blockchain platform: Ethereum, Sepolia (Test Net)
-     - Smart contract languages: Solidity, python
-     - Frontend technologies: Js, HTML, CSS
-     - Backend technologies: Node.js
-     - Database:  MongoDB
-     - Metamask for test Notworks (Sepolia)
-     - Docker for containerization
+   - Blockchain platform: Ethereum, Geth (Testnet) 
+   - Smart contract languages: Solidity 
+   - Frontend technologies: JavaScript, HTML, CSS
+   - Backend technologies: Node.js
+   - Database: MongoDB
+   - Metamask for Geth Testnet interaction ( by adding network manually)
+   - Docker for containerization
+   - Truffle for smart contract development and migration
+   - Ganache UI for blockchain testing
+   - Web3.js for blockchain interaction
+   - AI chatbot for user assistance
 
 ### 6. **Installation Instructions**
 
-     - Prerequisites: (Steps to mention here)
-     - Installation of dependencies
-     - Configuration settings
-     - Running the application locally
+   - **Prerequisites**:
+     - Install Node.js, MongoDB, Docker, Truffle, and Ganache UI
+     - Install Metamask for Sepolia Testnet
+     - Set up AI chatbot (details provided in aichatbot folder)
+   - **Installation of dependencies**:
+     - Run `npm install` to install required dependencies for the frontend and backend
+   - **Configuration settings**:
+     - Update environment variables and MongoDB connection settings
+     - Configure the blockchain network with Ganache UI and Metamask
+   - **Running the application locally**:
+     - Run `docker-compose up` to set up the application containers
+     - Deploy smart contracts using `truffle migrate` after connecting to Ganache UI
+     - Run `npm start` to start the web server
 
 ### 7. **Usage**
 
-     - Explain how to use the system, including:
-     - How to interact with the blockchain network
-     - How to manage drug supply chain records
-     - How to view and verify transactions
+   - **Interacting with the blockchain network**:
+     - Access the Metamask wallet linked to the Geth Testnet to monitor transactions
+     - Use the AI chatbot to guide you through the process
+   - **Managing drug supply chain records**:
+     - View and update drug records on the platform, which are securely stored and tracked on the blockchain
+   - **Verifying transactions**:
+     - Verify the authenticity of transactions using the blockchain explorer linked with Sepolia Testnet
 
 ### 8. **Smart Contracts**
 
-     - Describe the smart contracts used in the project:
+   - **Description**:
+     - The smart contracts handle drug creation, tracking, and delivery verification
+   - **Deployment**:
+     - Contracts are deployed on the Sepolia testnet using Truffle and Ganache UI
+   - **Functions**:
+     - Functions include adding drugs to the supply chain, tracking their movement, and verifying delivery
 
+### 9. **Contributing**
 
-     - Purpose of each contract
-     - How they are deployed
-     - Functions and interactions
+   - **Submit issues**: Please open an issue via the GitHub repository.
+   - **Propose changes**: Submit pull requests for review.
+   - **Code of conduct**: Follow the project’s code of conduct available in the repository.
 
-### 9. **API Documentation**
+### 10. **License**
 
-      - If applicable, include documentation for any APIs used or provided by the system.
+   - Distributed under the MIT License.
 
-### 10. **Contributing**
+### 11. **Contact Information**
 
-     - How to submit issues
-     - How to propose changes
-     - Code of conduct
-
-### 11. **License**
-
-      - Specify the license under which the project is distributed (e.g., MIT, Apache 2.0).
-
-### 12. **Contact Information**
-
-      - for any query regarding the project email us at: tanishkajdas@gmail.com / rajendrasdhandar@gmail.com
+   - For any queries, email us at: tanishkajdas@gmail.com / rajendrasdhandar@gmail.com / jatushhingu29@gmail.com / akashnadar102@gmail.com 
 
 ### 13. **Future Work**
 
-      - Mention any planned features or improvements for the system.
+   - Integrating AI-based analytics to predict supply chain delays
+   - Expanding the platform for global drug tracking across multiple countries
+   - Additional user roles for greater access control
 
-### 14. **Screenshots/Demo/video**
+### 14. **Screenshots/Demo/Video**
 
-      - If available, include screenshots or a link to a demo to showcase the functionality.
+   - Demo Video link:
+   - how to deploy a smart contract on ganache: https://youtu.be/UnNPv6zEbwc?si=FrfUOIY3FMBl-gc0
+   - tutorial for truffle: https://youtu.be/62f757RVEvU?si=35ucZDBa7wd1QgmR
+   - Make a customized chatbot for website: https://youtu.be/zAfLcKrbSps?si=-1kBaGwHURIPNlkG
+   - learn docker: https://youtu.be/gAkwW2tuIqE?si=3WOS1KS0os94WQCa
+   - Dokerize and deploy a react website: https://youtu.be/dfTco9hmXEM?si=wiRWo8xUbmrduito | https://youtu.be/RL31Kv_PHTw?si=A5Uo6fYZwyEkK9Iy
 
+### 15. **Development Process**
 
-### 14. **OG WORKING MEETHOD :::::::::**
+   - **Blockchain setup**:
+     - We used **Ganache UI** to simulate the Ethereum blockchain locally.
+     - Contracts were written in Solidity and migrated using **Truffle**.
+     - Interactions between the front end and blockchain were made possible with **Web3.js**.
+   - **AI Chatbot**:
+     - An AI-powered chatbot is integrated for user support, assisting with navigating the platform and providing guidance on supply chain interactions.
 
-      - BEFORE WE CAN MIGRATE OUR CONTRACT TO BLOCKCHAIN WE NEED TO HAVE A BLOCKCHAIN RUNNING
-      - So for that we will use "GANACHE" 
-      - Migrate your contract to blockchain using truffle migrate
-      - Then we will use "WEB3" to interact with blockchain @@@@@@@@@@@@@@ SU SHIBAINU "
-      
+### 16. **Contribution**
+
+   - As an open source project feel free to fork, modify, and contribute to it 😎 .
+
+   
