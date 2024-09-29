@@ -130,4 +130,4 @@
 
    - Step2: Watch the video tutorial : !!!!!!!!!BAKI CHE !!!!!!
 
-   - Step3: Enjoy!! your project is now fully setup and ready to use ✌🏻
+   - Step3: Enjoy!!!😎 your project is now fully set up and ready to use ✌🏻. 
