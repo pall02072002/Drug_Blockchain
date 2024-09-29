@@ -26,7 +26,7 @@
 
    - Blockchain platform: Ethereum, Geth (Testnet) 
    - Smart contract languages: Solidity 
-   - Frontend technologies: JavaScript, HTML, CSS
+   - Frontend technologies: React JS
    - Backend technologies: Node.js
    - Database: MongoDB
    - Metamask for Geth Testnet interaction ( by adding network manually)
@@ -40,7 +40,7 @@
 
    - **Prerequisites**:
      - Install Node.js, MongoDB, Docker, Truffle, and Ganache UI
-     - Install Metamask for Sepolia Testnet
+     - Install Metamask for Geth Testnet
      - Set up AI chatbot (details provided in aichatbot folder)
    - **Installation of dependencies**:
      - Run `npm install` to install required dependencies for the frontend and backend
@@ -94,8 +94,18 @@
 ### 14. **Screenshots/Demo/Video**
 
    - Demo Video link:
+   - github desktop: https://youtu.be/UGokwtIn1Hk?si=JfcXl4_qFmUxgPA5 
+   - Fork a repo : https://youtu.be/-9ftoxZ2X9g?si=hLexg4KH1rTzl314
+   - Working with multiple developer on same project: https://youtu.be/k5D37W6h56o?si=10djRvnQSssk_FUR
+   - Make a Pull Request: https://youtu.be/8lGpZkjnkt4?si=YnwM8XKevArtoOdX
+   - meatmask extension installation: https://youtu.be/c7-IsFNbBZE?si=AhPFUawtZvcldh6o
+   - to connect metamask with ganache: https://www.youtube.com/watch?v=lv4HEyiw4EQ
+   - Etherscan: https://sepolia.etherscan.io/
+   - Web3 Faucet: https://cloud.google.com/application/web3/faucet
+   - truffle document: https://archive.trufflesuite.com/docs/
    - how to deploy a smart contract on ganache: https://youtu.be/UnNPv6zEbwc?si=FrfUOIY3FMBl-gc0
    - tutorial for truffle: https://youtu.be/62f757RVEvU?si=35ucZDBa7wd1QgmR
+   - Ganache installation: https://youtu.be/4LOeclXIxXA?si=p7j7ZVITWPBFv651
    - Make a customized chatbot for website: https://youtu.be/zAfLcKrbSps?si=-1kBaGwHURIPNlkG
    - learn docker: https://youtu.be/gAkwW2tuIqE?si=3WOS1KS0os94WQCa
    - Dokerize and deploy a react website: https://youtu.be/dfTco9hmXEM?si=wiRWo8xUbmrduito | https://youtu.be/RL31Kv_PHTw?si=A5Uo6fYZwyEkK9Iy
@@ -114,3 +124,10 @@
    - As an open source project feel free to fork, modify, and contribute to it 😎 .
 
    
+### 17. **Setps to run the project**
+ 
+   - Step1 : Clone the project : https://github.com/tanishka786/Drug_Blockchain.git (use github desktop which enables collaboration from the desktop, allowing users to create issues or pull requests to work with others on projects.)
+
+   - Step2: Watch the video tutorial : !!!!!!!!!BAKI CHE !!!!!!
+
+   - Step3: Enjoy!! your project is now fully setup and ready to use ✌🏻
