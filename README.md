@@ -94,12 +94,13 @@
 ### 14. **Screenshots/Demo/Video**
 
    - Demo Video link:
-   - github desktop: https://youtu.be/UGokwtIn1Hk?si=JfcXl4_qFmUxgPA5 
+   - GitHub desktop: https://youtu.be/UGokwtIn1Hk?si=JfcXl4_qFmUxgPA5 
    - Fork a repo : https://youtu.be/-9ftoxZ2X9g?si=hLexg4KH1rTzl314
-   - Working with multiple developer on same project: https://youtu.be/k5D37W6h56o?si=10djRvnQSssk_FUR
+   - Working with multiple developer on the same project: https://youtu.be/k5D37W6h56o?si=10djRvnQSssk_FUR
    - Make a Pull Request: https://youtu.be/8lGpZkjnkt4?si=YnwM8XKevArtoOdX
-   - meatmask extension installation: https://youtu.be/c7-IsFNbBZE?si=AhPFUawtZvcldh6o
+   - metamask extension installation: https://youtu.be/c7-IsFNbBZE?si=AhPFUawtZvcldh6o
    - to connect metamask with ganache: https://www.youtube.com/watch?v=lv4HEyiw4EQ
+   - to remove netwrok chain from metamask: https://www.youtube.com/watch?v=1Zg_IfUZuRU
    - Etherscan: https://sepolia.etherscan.io/
    - Web3 Faucet: https://cloud.google.com/application/web3/faucet
    - truffle document: https://archive.trufflesuite.com/docs/
