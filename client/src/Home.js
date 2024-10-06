@@ -17,9 +17,9 @@ function Home() {
     navigate("/track");
   };
 
-  const handleLogout = () => {
-    console.log("Logged out");
-  };
+  // const handleLogout = () => {
+  //   console.log("Logged out");
+  // };
 
   const openChatbot = () => {
     console.log("Open chatbot"); // Replace with your chatbot opening logic
