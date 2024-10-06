@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h4 {
+    color: #004080; /* Dark Blue for headings */
+  }
+  
+  span {
+    font-size: 16px;
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  /* Form Styles */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  .form-control-sm {
+    display: inline-block;
+    width: 250px;
+    margin: 10px 5px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #004080; /* Dark Blue border */
+    border-radius: 5px;
+    background-color: #e6f2ff; /* Lighter blue background */
+    color: #004080;
+  }
+  
+  input::placeholder {
+    color: #003366; /* Darker blue for placeholder */
+  }
+  
+  input:focus {
+    border-color: #0059b3; /* Slightly brighter blue on focus */
+    outline: none;
+  }
+  
+  button {
+    background-color: #0059b3; /* Main button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #003366; /* Darker blue on hover */
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  thead {
+    background-color: #004080; /* Dark Blue header */
+    color: white;
+  }
+  
+  thead th {
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  tbody tr {
+    background-color: #e6f2ff; /* Light blue for table rows */
+    transition: background-color 0.3s;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #cce0ff; /* Alternating blue for rows */
+  }
+  
+  tbody tr:hover {
+    background-color: #99ccff; /* Slightly darker blue on hover */
+  }
+  
+  tbody td {
+    padding: 10px;
+    color: #003366; /* Dark blue text for table rows */
+    font-size: 14px;
+  }
+  
+  /* Button for navigating */
+  .btn-outline-danger {
+    background-color: white;
+    color: #cc0000; /* Red color for 'HOME' button */
+    border: 1px solid #cc0000;
+    margin-left: 20px;
+  }
+  
+  .btn-outline-danger:hover {
+    background-color: #cc0000;
+    color: white;
+  }
+  
+  /* Loader Styles */
+  .wait {
+    font-size: 24px;
+    color: #004080; /* Dark blue loader text */
+    text-align: center;
+    padding: 50px;
+  }
+  

@@ -30,7 +30,6 @@ function Home() {
       {/* Navigation Bar */}
       <nav className="navbar">
         <div className="navbar-brand">Drug Guardian</div>
-        <div className="logout" onClick={handleLogout}>Logout</div>
       </nav>
 
       <div className="container">

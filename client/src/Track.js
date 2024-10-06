@@ -267,7 +267,7 @@ function Track() {
               <b>Name:</b> {RMS[MED[ID].RMSid].name}
             </p>
             <p>
-              <b>Place: </b>
+              <b>Place:</b>
               {RMS[MED[ID].RMSid].place}
             </p>
           </article>
