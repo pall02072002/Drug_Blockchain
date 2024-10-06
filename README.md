@@ -105,6 +105,7 @@
    - How to deploy a smart contract on ganache: https://youtu.be/UnNPv6zEbwc?si=FrfUOIY3FMBl-gc0
    - Tutorial for truffle: https://youtu.be/62f757RVEvU?si=35ucZDBa7wd1QgmR
    - Ganache installation: https://youtu.be/4LOeclXIxXA?si=p7j7ZVITWPBFv651
+   - How to deploy your website on Netlify: https://www.youtube.com/watch?v=qAcOhFdC0-k
    - Make a customized chatbot for the website: https://youtu.be/zAfLcKrbSps?si=-1kBaGwHURIPNlkG
    - Learn docker: https://youtu.be/gAkwW2tuIqE?si=3WOS1KS0os94WQCa
    - Dockerize and deploy a react website: https://youtu.be/dfTco9hmXEM?si=wiRWo8xUbmrduito | https://youtu.be/RL31Kv_PHTw?si=A5Uo6fYZwyEkK9Iy
