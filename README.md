@@ -1,6 +1,6 @@
 ### 1. **Project Title**
 
-   - Drug Chain Supply Management System using Blockchain
+   - Drug Guardian
 
 ### 2. **Created by**
 
