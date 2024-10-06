@@ -35,7 +35,8 @@ function Home() {
 
       <div className="container">
         <div className="header">
-          <h3>Pharmaceutical Supply Chain Flow</h3>
+          <h3>Drug Guardian</h3>
+          <h5>"Securing Every Dose: Blockchain-Driven Drug Supply Chain to Combat Counterfeit"</h5>
         </div>
         <br />
         <div className="grid-container">
