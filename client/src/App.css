@@ -135,3 +135,213 @@ button:focus {
         grid-template-columns: 1fr; /* Single column on small screens */
     }
 }
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ CSS FOR all pages $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+    margin: 0;
+    padding: 20px; /* Added padding for overall spacing */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+
+/* Current Account Address */
+span {
+    font-size: 16px; /* Font size for the address */
+    color: #003366; /* Dark blue color for the text */
+    display: inline-block; /* Aligns elements side by side */
+  }
+  
+  /* Add margin to create space between spans */
+  span:first-of-type {
+    margin-bottom: 10px; /* Adjust the value as needed for spacing */
+  }
+  
+  /* Bold text style */
+  span b {
+    font-weight: bold; /* Make the label bold */
+  }
+
+
+  /* HOME Button */
+.btn-outline-danger {
+    background-color: transparent; /* Transparent background */
+    border-color: #ff4d4d; /* Red border color */
+    color: #ff4d4d; /* Red text color */
+    padding: 5px 10px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Hover effect for the button */
+  .btn-outline-danger:hover {
+    background-color: #ff4d4d; /* Red background on hover */
+    color: #fff; /* White text on hover */
+    cursor: pointer; /* Change cursor to pointer */
+  }
+  
+ /* Current Account Address and Home Button Container */
+.current-account-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px; /* Add margin to create space between the address and the main container */
+    padding: 15px 20px;
+    background-color: #e6f2ff;
+    border: 1px solid #cce0ff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Current Account Address */
+  .current-account {
+    font-size: 18px;
+    color: #003366;
+    font-weight: bold;
+    margin-right: 20px; /* Adds space between the account address and the home button */
+  }
+  
+  /* Home Button Styling */
+  .home-button {
+    background-color: #168298;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: white;
+    color: #cc0000;
+    border: 1px solid #cc0000;
+  }
+  
+  
+  /* Loader */
+  .wait {
+    font-size: 24px;
+    color: #004080; /* Dark blue loader text */
+    text-align: center;
+    padding: 50px;
+  }
+  
+  /* Form Styles */
+  form {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #cce0ff; /* Light blue background for form */
+    border-radius: 10px;
+  }
+  
+  input.form-control-sm {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #004080; /* Dark Blue border */
+    border-radius: 5px;
+    background-color: #e6f2ff; /* Lighter blue background */
+    color: #004080;
+  }
+  
+  input.form-control-sm::placeholder {
+    color: #003366; /* Darker blue for placeholder */
+  }
+  
+  input.form-control-sm:focus {
+    border-color: #0059b3; /* Slightly brighter blue on focus */
+    outline: none;
+  }
+  
+  button.btn-outline-success {
+    background-color: #0059b3; /* Main button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  button.btn-outline-success:hover {
+    background-color: #003366; /* Darker blue on hover */
+  }
+  
+  /* Table Styles */
+  table.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  thead {
+    background-color: #004080; /* Dark Blue header */
+    color: white;
+  }
+  
+  thead th {
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  tbody tr {
+    background-color: #e6f2ff; /* Light blue for table rows */
+    transition: background-color 0.3s;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #cce0ff; /* Alternating blue for rows */
+  }
+  
+  tbody tr:hover {
+    background-color: #99ccff; /* Slightly darker blue on hover */
+  }
+  
+  tbody td {
+    padding: 10px;
+    color: #003366; /* Dark blue text for table rows */
+    font-size: 14px;
+  }
+  
+  /* Section Headers */
+  h4 {
+    color: #004080;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    border-bottom: 2px solid #cce0ff; /* Underline with light blue */
+    padding-bottom: 5px;
+  }
+  
+  h1 {
+    color: #004080;
+    text-align: center;
+  }
+  
+  /* Additional Spacing */
+  input,
+  button {
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  table {
+    margin-top: 20px;
+  }
+  
+ 

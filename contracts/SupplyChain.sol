@@ -164,6 +164,7 @@ contract SupplyChain {
         RET[retCtr] = retailer(_address, retCtr, _name, _place);
     }
 
+
     //To supply raw materials from RMS supplier to the manufacturer
     function RMSsupply(uint256 _medicineID) public {
         require(_medicineID > 0 && _medicineID <= medicineCtr);

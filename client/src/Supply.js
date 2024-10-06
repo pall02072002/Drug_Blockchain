@@ -155,7 +155,7 @@ function Supply() {
         Medicine Order -&gt; Raw Material Supplier -&gt; Manufacturer -&gt;
         Distributor -&gt; Retailer -&gt; Consumer
       </p>
-      <table className="table table-sm table-dark">
+      <table className="table table-sm ">
         <thead>
           <tr>
             <th scope="col">Medicine ID</th>
