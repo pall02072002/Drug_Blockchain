@@ -152,16 +152,17 @@ span b {
 /* HOME Button */
 .btn-outline-danger {
     background-color: transparent; /* Transparent background */
-    border-color: #6FFFE9; /* Lighter teal border color */
+    border-color: #6FFFE9 !important; /* Lighter teal border color */
     color: #6FFFE9; /* Lighter teal text color */
     padding: 5px 10px; /* Padding for button */
     border-radius: 5px; /* Rounded corners */
     transition: all 0.3s ease; /* Smooth transition */
+    margin: 10px;
 }
 
 /* Hover effect for the button */
 .btn-outline-danger:hover {
-    background-color: #5BC0BE; /* Darker teal background on hover */
+    background-color: #5BC0BE !important; /* Darker teal background on hover */
     color: white; /* White text on hover */
     cursor: pointer; /* Change cursor to pointer */
 }
