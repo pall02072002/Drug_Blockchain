@@ -37,7 +37,7 @@
 ### 6. **Installation Instructions**
 
    - **Prerequisites**:
-     - Install Node.js, MongoDB, Docker, Truffle, and Ganache UI
+     - Install  Docker, Truffle, and Ganache UI
      - Install Metamask for Geth Testnet
      - Set up AI chatbot (details provided in aichatbot folder)
    - **Installation of dependencies**:
