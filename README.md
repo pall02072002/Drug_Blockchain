@@ -11,7 +11,7 @@
 
 ### 3. **Description**
 
-   This website is a comprehensive platform developed to ensure the transparency, security, and efficiency of the drug supply chain. Built with HTML, CSS, and JavaScript for the front end, it provides an intuitive and user-friendly interface. The backend, powered by Node.js and MongoDB, ensures robust data handling and real-time processing. The blockchain component, developed using Solidity and deployed on the Sepolia testnet, guarantees immutable and secure transactions, tracking drugs from the manufacturer to the consumer. Docker is used for containerization, ensuring scalability, portability, and easy deployment across different environments. Additionally, Truffle and Ganache UI have been utilized for blockchain development and testing. We also integrated an AI chatbot to enhance user interaction and support within the platform.
+   This website is a comprehensive platform developed to ensure the transparency, security, and efficiency of the drug supply chain. Built with HTML, CSS, and JavaScript for the front end, it provides an intuitive and user-friendly interface. The blockchain component, developed using Solidity and deployed on the Sepolia testnet, guarantees immutable and secure transactions, tracking drugs from the manufacturer to the consumer. Docker is used for containerization, ensuring scalability, portability, and easy deployment across different environments. Additionally, Truffle and Ganache UI have been utilized for blockchain development and testing. We also integrated an AI chatbot to enhance user interaction and support within the platform.
 
 ### 4. **Features**
 
@@ -37,7 +37,7 @@
 ### 6. **Installation Instructions**
 
    - **Prerequisites**:
-     - Install Node.js, MongoDB, Docker, Truffle, and Ganache UI
+     - Install  Docker, Truffle, and Ganache UI
      - Install Metamask for Geth Testnet
      - Set up AI chatbot (details provided in aichatbot folder)
    - **Installation of dependencies**:
