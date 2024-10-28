@@ -89,26 +89,26 @@
    - Expanding the platform for global drug tracking across multiple countries
    - Additional user roles for greater access control
 
-### 14. **Screenshots/Demo/Video**
+### 14. **Resources**
 
    - Demo Video link:
-   - GitHub desktop: https://youtu.be/UGokwtIn1Hk?si=JfcXl4_qFmUxgPA5 
-   - Fork a repo : https://youtu.be/-9ftoxZ2X9g?si=hLexg4KH1rTzl314
-   - Working with multiple developers on the same project: https://youtu.be/k5D37W6h56o?si=10djRvnQSssk_FUR
-   - Make a Pull Request: https://youtu.be/8lGpZkjnkt4?si=YnwM8XKevArtoOdX
-   - Metamask extension installation: https://youtu.be/c7-IsFNbBZE?si=AhPFUawtZvcldh6o
-   - To connect metamask with ganache: https://www.youtube.com/watch?v=lv4HEyiw4EQ
-   - To remove network chain from metamask: https://www.youtube.com/watch?v=1Zg_IfUZuRU
-   - Etherscan: https://sepolia.etherscan.io/
-   - Web3 Faucet: https://cloud.google.com/application/web3/faucet
-   - Truffle document: https://archive.trufflesuite.com/docs/
-   - How to deploy a smart contract on ganache: https://youtu.be/UnNPv6zEbwc?si=FrfUOIY3FMBl-gc0
-   - Tutorial for truffle: https://youtu.be/62f757RVEvU?si=35ucZDBa7wd1QgmR
-   - Ganache installation: https://youtu.be/4LOeclXIxXA?si=p7j7ZVITWPBFv651
-   - How to deploy your website on Netlify: https://www.youtube.com/watch?v=qAcOhFdC0-k
-   - Make a customized chatbot for the website: https://youtu.be/zAfLcKrbSps?si=-1kBaGwHURIPNlkG
-   - Learn docker: https://youtu.be/gAkwW2tuIqE?si=3WOS1KS0os94WQCa
-   - Dockerize and deploy a react website: https://youtu.be/dfTco9hmXEM?si=wiRWo8xUbmrduito | https://youtu.be/RL31Kv_PHTw?si=A5Uo6fYZwyEkK9Iy
+   - GitHub desktop:https://youtu.be/UGokwtIn1Hk?si=JfcXl4_qFmUxgPA5 
+   - Fork a repo :https://youtu.be/-9ftoxZ2X9g?si=hLexg4KH1rTzl314
+   - Working with multiple developers on the same project:https://youtu.be/k5D37W6h56o?si=10djRvnQSssk_FUR
+   - Make a Pull Request:https://youtu.be/8lGpZkjnkt4?si=YnwM8XKevArtoOdX
+   - Metamask extension installation:https://youtu.be/c7-IsFNbBZE?si=AhPFUawtZvcldh6o
+   - To connect metamask with ganache:https://www.youtube.com/watch?v=lv4HEyiw4EQ
+   - To remove network chain from metamask:https://www.youtube.com/watch?v=1Zg_IfUZuRU
+   - Etherscan:https://sepolia.etherscan.io/
+   - Web3 Faucet:https://cloud.google.com/application/web3/faucet
+   - Truffle document:https://archive.trufflesuite.com/docs/
+   - How to deploy a smart contract on ganache:https://youtu.be/UnNPv6zEbwc?si=FrfUOIY3FMBl-gc0
+   - Tutorial for truffle:https://youtu.be/62f757RVEvU?si=35ucZDBa7wd1QgmR
+   - Ganache installation:https://youtu.be/4LOeclXIxXA?si=p7j7ZVITWPBFv651
+   - How to deploy your website on Netlify:https://www.youtube.com/watch?v=qAcOhFdC0-k
+   - Make a customized chatbot for the website:https://youtu.be/zAfLcKrbSps?si=-1kBaGwHURIPNlkG
+   - Learn docker:https://youtu.be/gAkwW2tuIqE?si=3WOS1KS0os94WQCa
+   - Dockerize and deploy a react website:https://youtu.be/dfTco9hmXEM?si=wiRWo8xUbmrduito | https://youtu.be/RL31Kv_PHTw?si=A5Uo6fYZwyEkK9Iy
 
 ### 15. **Development Process**
 
