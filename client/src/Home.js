@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import './ChatbotEmbed.css';
 
@@ -18,17 +18,7 @@ function Home() {
     navigate("/track");
   };
 
-  // const handleLogout = () => {
-  //   console.log("Logged out");
-  // };
-
-
-  // template for chatbot code 
-  //const openChatbot = () => {
-    //console.log("Open chatbot"); // Replace with your chatbot opening logic
-  //};
-
-  // chatbot code 
+  // Chatbot Embed Component
   const ChatbotEmbed = () => {
     useEffect(() => {
       // Inject the Chatbase script
@@ -48,17 +38,12 @@ function Home() {
   
     return (
       <div className="chatbot-embed">
-        {/* Optional button to activate the chatbot */}
         <button onClick={() => window.chatbase?.openChat()} className="chatbot-button">
           Chat with Us
         </button>
       </div>
     );
   };
-
-  return null; // No visible component is needed, as this is just for embedding the chatbot
-
-}
 
   return (
     <div className="home-page">
@@ -96,13 +81,10 @@ function Home() {
         </div>
       </div>
 
-      {/* Chatbot Button */}
-      <div className="chatbot-button" onClick={openChatbot}>
-        🗨️
-      </div>
+      {/* Chatbot Component */}
+      <ChatbotEmbed />
     </div>
   );
+}
 
-//export default ChatbotEmbed;
 export default Home;
-
