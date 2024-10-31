@@ -106,6 +106,7 @@
    - Tutorial for truffle:https://youtu.be/62f757RVEvU?si=35ucZDBa7wd1QgmR
    - Ganache installation:https://youtu.be/4LOeclXIxXA?si=p7j7ZVITWPBFv651
    - How to deploy your website on Netlify:https://www.youtube.com/watch?v=qAcOhFdC0-k
+   - How to update the website after deploying it on Netlify:https://youtu.be/KKdTIabnFNk?si=VuSlaQncR8d_MO4k
    - Make a customized chatbot for the website:https://youtu.be/zAfLcKrbSps?si=-1kBaGwHURIPNlkG
    - Make a chatbot using chatbase.co:https://www.chatbase.co/
    - Learn docker:https://youtu.be/gAkwW2tuIqE?si=3WOS1KS0os94WQCa
