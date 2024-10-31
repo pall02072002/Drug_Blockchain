@@ -21,6 +21,13 @@ function Home() {
   //   console.log("Logged out");
   // };
 
+
+  // template for chatbot code 
+  //const openChatbot = () => {
+    //console.log("Open chatbot"); // Replace with your chatbot opening logic
+  //};
+
+
   // chatbot code 
   const openChatbot = () => {
     console.log("Opening chatbot");
