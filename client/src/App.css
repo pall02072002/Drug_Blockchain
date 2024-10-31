@@ -100,30 +100,8 @@ button:focus {
     box-shadow: 0 0 0 2px #5BC0BE66; /* Outline effect on focus */
 }
 
-/* Chatbot Button */
-.chatbot-button {
-    position: fixed; /* Fixed position */
-    bottom: 20px; /* Distance from the bottom */
-    right: 20px; /* Distance from the right */
-    background-color: #5BC0BE; /* Background color */
-    color: #0B132B; /* Text color */
-    border: none; /* No border */
-    border-radius: 50%; /* Circular shape */
-    width: 50px; /* Width of the button */
-    height: 50px; /* Height of the button */
-    display: flex; /* Flexbox for centering icon */
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
-    cursor: pointer; /* Pointer cursor on hover */
-    font-size: 1.5rem; /* Font size for the icon */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
-    transition: background-color 0.3s ease; /* Transition for hover effect */
-}
 
-.chatbot-button:hover {
-    background-color: #6FFFE9; /* Lighter teal on hover */
-    transform: scale(1.1);
-}
+/*  chat bot css* /
 
 /* Responsive Design: Stack the boxes vertically on small screens */
 @media (max-width: 768px) {
