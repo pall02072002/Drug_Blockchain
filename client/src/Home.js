@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import './ChatbotEmbed.css';
 
 function Home() {
   const navigate = useNavigate();
@@ -28,27 +29,37 @@ function Home() {
   //};
 
   // chatbot code 
-  const openChatbot = () => {
-    console.log("Opening chatbot");
-  
-    // Set the chatbot configuration
-    window.embeddedChatbotConfig = {
-      chatbotId: "lfelQ4n09OHewibCFs-YD",
-      domain: "www.chatbase.co",
-    };
-  
-    // Check if the script is already loaded to avoid duplication
-    if (!document.querySelector("script[src='https://www.chatbase.co/embed.min.js']")) {
-      const script = document.createElement("script");
+  const ChatbotEmbed = () => {
+    useEffect(() => {
+      // Inject the Chatbase script
+      const script = document.createElement('script');
       script.src = "https://www.chatbase.co/embed.min.js";
-      script.defer = true;
-      document.body.appendChild(script);
-    }
-  };
+      script.async = true;
+      script.setAttribute("chatbotId", "lfelQ4n09OHewibCFs-YD");
+      script.setAttribute("domain", "www.chatbase.co");
   
+      document.body.appendChild(script);
+  
+      // Cleanup script on component unmount
+      return () => {
+        document.body.removeChild(script);
+      };
+    }, []);
+  
+    return (
+      <div className="chatbot-embed">
+        {/* Optional button to activate the chatbot */}
+        <button onClick={() => window.chatbase?.openChat()} className="chatbot-button">
+          Chat with Us
+        </button>
+      </div>
+    );
+  };
 
   return null; // No visible component is needed, as this is just for embedding the chatbot
 }
+
+//export default ChatbotEmbed;
 
   return (
     <div className="home-page">
@@ -92,6 +103,5 @@ function Home() {
       </div>
     </div>
   );
-
 
 export default Home;
