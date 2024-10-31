@@ -27,7 +27,6 @@ function Home() {
     //console.log("Open chatbot"); // Replace with your chatbot opening logic
   //};
 
-
   // chatbot code 
   const openChatbot = () => {
     console.log("Opening chatbot");
@@ -51,8 +50,6 @@ function Home() {
   return null; // No visible component is needed, as this is just for embedding the chatbot
 }
 
-
-  
   return (
     <div className="home-page">
       {/* Navigation Bar */}
