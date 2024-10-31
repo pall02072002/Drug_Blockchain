@@ -57,9 +57,9 @@ function Home() {
   };
 
   return null; // No visible component is needed, as this is just for embedding the chatbot
-}
 
-//export default ChatbotEmbed;
+
+
 
   return (
     <div className="home-page">
@@ -103,5 +103,7 @@ function Home() {
       </div>
     </div>
   );
-
+}
+//export default ChatbotEmbed;
 export default Home;
+
