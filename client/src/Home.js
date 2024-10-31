@@ -21,10 +21,31 @@ function Home() {
   //   console.log("Logged out");
   // };
 
+  // chatbot code 
   const openChatbot = () => {
-    console.log("Open chatbot"); // Replace with your chatbot opening logic
+    console.log("Opening chatbot");
+  
+    // Set the chatbot configuration
+    window.embeddedChatbotConfig = {
+      chatbotId: "lfelQ4n09OHewibCFs-YD",
+      domain: "www.chatbase.co",
+    };
+  
+    // Check if the script is already loaded to avoid duplication
+    if (!document.querySelector("script[src='https://www.chatbase.co/embed.min.js']")) {
+      const script = document.createElement("script");
+      script.src = "https://www.chatbase.co/embed.min.js";
+      script.defer = true;
+      document.body.appendChild(script);
+    }
   };
+  
 
+  return null; // No visible component is needed, as this is just for embedding the chatbot
+}
+
+
+  
   return (
     <div className="home-page">
       {/* Navigation Bar */}
@@ -67,6 +88,6 @@ function Home() {
       </div>
     </div>
   );
-}
+
 
 export default Home;
