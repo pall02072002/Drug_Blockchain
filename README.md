@@ -35,20 +35,53 @@
    - AI chatbot for user assistance
 
 ### 6. **Installation Instructions**
+### Prerequisites
+- Install [Truffle](https://archive.trufflesuite.com/docs/truffle/how-to/install/)
+- Install [Ganache UI](https://youtu.be/4LOeclXIxXA?si=p7j7ZVITWPBFv651)
+- Install [Metamask](https://youtu.be/c7-IsFNbBZE?si=AhPFUawtZvcldh6o)
 
-   - **Prerequisites**:
-     - Install  Docker, Truffle, and Ganache UI
-     - Install Metamask for Geth Testnet
-     - Set up AI chatbot (details provided in aichatbot folder)
-   - **Installation of dependencies**:
-     - Run `npm install` to install the required dependencies for the frontend and backend
-   - **Configuration settings**:
-     - Update environment variables and MongoDB connection settings
-     - Configure the blockchain network with Ganache UI and Metamask
-   - **Running the application locally**:
-     - Run `docker-compose up` to set up the application containers
-     - Deploy smart contracts using `truffle migrate` after connecting to Ganache UI
-     - Run `npm start` to start the web server
+### Additional Dependencies
+- Install the correct Node.js version:
+  - [Node.js v14 - v18](https://archive.trufflesuite.com/docs/truffle/how-to/install/#install-nodejs)
+- Install Metamask Snap Box:
+  - [Metamask Snap Box](https://archive.trufflesuite.com/boxes/metamask-snap-box/)
+
+### Steps
+1. Clone the project.
+2. Navigate to the project directory.
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Configure the blockchain network:
+   - Install Ganache.
+   - Install Metamask and create an account.
+   - Connect Metamask to Ganache by importing accounts into Metamask.
+   - Connect Ganache with the Truffle configuration file (`truffle-config.js`) by adding the port number and network ID.
+
+5. Initialize the project with Metamask Snap Box:
+   ```bash
+   truffle unbox metamask/snap-box <dir_name>
+   ```
+6. Compile and migrate smart contracts:
+   ```bash
+   npx truffle compile
+   npx truffle migrate
+   ```
+7. Navigate to the client directory:
+   ```bash
+   cd client
+   ```
+8. Install client dependencies:
+   ```bash
+   yarn
+   npm install
+   ```
+9. Start the application:
+   ```bash
+   yarn start
+   npm start
+   ```
 
 ### 7. **Usage**
 
@@ -73,7 +106,7 @@
 
    - **Submit issues**: Please open an issue via the GitHub repository.
    - **Propose changes**: Submit pull requests for review.
-   - **Code of conduct**: Follow the project’s code of conduct available in the repository.
+   - **Code of conduct**: Follow the project’s code of conduct, which is available in the repository.
 
 ### 10. **License**
 
