@@ -18,8 +18,8 @@ function Home() {
     navigate("/track");
   };
 
-  // Chatbot Embed Component
-  const ChatbotEmbed = () => {
+  // Chatbot Embed Component old bot
+  /*const ChatbotEmbed = () => {
     useEffect(() => {
       // Inject the Chatbase script
       const script = document.createElement('script');
@@ -44,6 +44,34 @@ function Home() {
       </div>
     );
   };
+*/
+
+// Chatbot Embed Component new bot
+const ChatbotEmbed = () => {
+  useEffect(() => {
+    // Inject the Chatbase script
+    const script = document.createElement('script');
+    script.src = "https://www.chatbase.co/embed.min.js";
+    script.async = true;
+    script.setAttribute("chatbotId", "3NPc2gqG0LJD2Tm47lQ7J");
+    script.setAttribute("domain", "www.chatbase.co");
+
+    document.body.appendChild(script);
+
+    // Cleanup script on component unmount
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
+  return (
+    <div className="chatbot-embed">
+      <button onClick={() => window.chatbase?.openChat()} className="chatbot-button">
+        
+      </button>
+    </div>
+  );
+};
 
   return (
     <div className="home-page">
