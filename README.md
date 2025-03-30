@@ -28,7 +28,7 @@
    - Smart contract languages: Solidity 
    - Frontend technologies: React JS
    - Backend technologies: Node.js
-   - Metamask for Geth Testnet interaction ( by adding network manually)
+   - Metamask for Geth Testnet interaction ( by adding network manually i.e. importing the accounts from ganache to metamask for transaction purposes)
    - Docker for containerization
    - Truffle for smart contract development and migration
    - Ganache UI for blockchain testing
