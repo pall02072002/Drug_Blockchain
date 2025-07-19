@@ -4,10 +4,10 @@
 
 ### 2. **Created by**
 
-   - Tanishka Das
-   - Pallavi Dhandar
-   - Jatush Hingu
-   - Akash Nadar
+   - 1.Tanishka Das
+   - 2.Pallavi Dhandar
+   - 3.Jatush Hingu
+   - 4. Akash Nadar
 
 ### 3. **Description**
 
